@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326E038C18C5CC4D0008A968 /* GATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E038B18C5CC4D0008A968 /* GATest.m */; };
 		32DC43E218C5C85F0017D3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DC43E118C5C85F0017D3A8 /* Foundation.framework */; };
 		32DC43E418C5C85F0017D3A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DC43E318C5C85F0017D3A8 /* CoreGraphics.framework */; };
 		32DC43E618C5C85F0017D3A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DC43E518C5C85F0017D3A8 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		326E038A18C5CC4D0008A968 /* GATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATest.h; sourceTree = "<group>"; };
+		326E038B18C5CC4D0008A968 /* GATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATest.m; sourceTree = "<group>"; };
 		32DC43DE18C5C85F0017D3A8 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DC43E118C5C85F0017D3A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32DC43E318C5C85F0017D3A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				32DC43F018C5C85F0017D3A8 /* GAAppDelegate.h */,
+				326E038A18C5CC4D0008A968 /* GATest.h */,
+				326E038B18C5CC4D0008A968 /* GATest.m */,
 				32DC43F118C5C85F0017D3A8 /* GAAppDelegate.m */,
 				32DC43F318C5C85F0017D3A8 /* Main.storyboard */,
 				32DC43F618C5C85F0017D3A8 /* GAViewController.h */,
@@ -253,6 +258,7 @@
 				32DC43F218C5C85F0017D3A8 /* GAAppDelegate.m in Sources */,
 				32DC43F818C5C85F0017D3A8 /* GAViewController.m in Sources */,
 				32DC43EE18C5C85F0017D3A8 /* main.m in Sources */,
+				326E038C18C5CC4D0008A968 /* GATest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				32DC441218C5C8600017D3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32DC441318C5C8600017D3A8 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				32DC441518C5C8600017D3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
